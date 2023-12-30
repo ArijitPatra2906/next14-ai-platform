@@ -1,7 +1,7 @@
 "use client";
 import { Heading } from "@/components/headind";
 import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
-import { MessageSquare, Music } from "lucide-react";
+import { Music } from "lucide-react";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
@@ -12,12 +12,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useRouter } from "next/navigation";
 
-import { ChatCompletionMessageParam } from "openai/resources/chat/completions";
-import { cn } from "@/lib/utils";
 import { Empty } from "@/components/empty";
 import { Loader } from "@/components/loader";
-import { BotAvatar } from "@/components/bot-avatar";
-import { UserAvatar } from "@/components/user-avatar";
 
 const MusicPage = () => {
   const router = useRouter();
