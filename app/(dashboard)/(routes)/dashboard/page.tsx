@@ -4,6 +4,7 @@ import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import {
   ArrowRight,
+  Box,
   Code,
   ImageIcon,
   MessageSquare,
@@ -20,19 +21,20 @@ const tools = [
     color: "text-violet-500",
     bgColor: "bg-violet-500/10",
   },
-  {
-    label: "Music Generation",
-    icon: Music,
-    href: "/music",
-    color: "text-emerald-500",
-    bgColor: "bg-emerald-500/10",
-  },
+
   {
     label: "Image Generation",
     icon: ImageIcon,
     color: "text-pink-700",
     bgColor: "bg-pink-700/10",
     href: "/image",
+  },
+  {
+    label: "Code Generation",
+    icon: Code,
+    color: "text-green-700",
+    bgColor: "bg-green-700/10",
+    href: "/code",
   },
   {
     label: "Video Generation",
@@ -42,12 +44,18 @@ const tools = [
     href: "/video",
   },
   {
-    label: "Code Generation",
-    icon: Code,
-    color: "text-green-700",
-    bgColor: "bg-green-700/10",
-    href: "/code",
+    label: "Music Generation",
+    icon: Music,
+    href: "/music",
+    color: "text-emerald-500",
+    bgColor: "bg-emerald-500/10",
   },
+  // {
+  //   label: "3d Model Generation",
+  //   icon: Box,
+  //   color: "text-orange-400",
+  //   href: "/model",
+  // },
 ];
 
 const DashboardPage = () => {
