@@ -43,6 +43,12 @@ const routes = [
     href: "/code",
   },
   {
+    label: "Music Generation",
+    icon: Music,
+    color: "text-emerald-500",
+    href: "/music",
+  },
+  {
     label: "Video Generation",
     icon: VideoIcon,
     color: "text-orange-700",
@@ -54,17 +60,11 @@ const routes = [
   //   color: "text-orange-400",
   //   href: "/model",
   // },
-  {
-    label: "Music Generation",
-    icon: Music,
-    color: "text-emerald-500",
-    href: "/music",
-  },
-  {
-    label: "Settings",
-    icon: Settings,
-    href: "/settings",
-  },
+  // {
+  //   label: "Settings",
+  //   icon: Settings,
+  //   href: "/settings",
+  // },
 ];
 
 const Sidebar = () => {

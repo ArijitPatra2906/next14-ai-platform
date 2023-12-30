@@ -37,18 +37,18 @@ const tools = [
     href: "/code",
   },
   {
-    label: "Video Generation",
-    icon: VideoIcon,
-    color: "text-orange-700",
-    bgColor: "bg-orange-700/10",
-    href: "/video",
-  },
-  {
     label: "Music Generation",
     icon: Music,
     href: "/music",
     color: "text-emerald-500",
     bgColor: "bg-emerald-500/10",
+  },
+  {
+    label: "Video Generation",
+    icon: VideoIcon,
+    color: "text-orange-700",
+    bgColor: "bg-orange-700/10",
+    href: "/video",
   },
   // {
   //   label: "3d Model Generation",
